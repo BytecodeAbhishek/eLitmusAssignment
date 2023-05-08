@@ -1,0 +1,20 @@
+body{
+    background: #424874;
+}
+.container{
+    margin: 50px;
+    color: #F4EEFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    font-size: 2rem;
+}
+
+img{
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    cursor: pointer;    
+}

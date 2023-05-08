@@ -1,0 +1,45 @@
+body{
+    color: white;
+    background-color: rgb(42, 47, 79);
+}
+
+.container{
+    background: rgb(42, 47, 79);
+    background-color: rgb(42, 47, 79);
+    display: flex;
+    padding: 91px;
+}
+
+.left{
+    background-color: rgba(0, 0, 0, 0.351);
+    margin: 5px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.right{
+    margin: 5px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+
+.right img{
+    height: 300px;
+    width: 300px;
+}
+
+#claimBtn{
+    margin: 30px;
+}
+
+.footer{
+    color: black   ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

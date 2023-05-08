@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navbar CSS */
+.navbar{
+    padding: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+.heading-primary {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.heading-secondary{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 10px 10px 0px;
+    
+
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+span{
+    color: crimson;
+}
+
+.black{
+    color: black;
+}
+
+.yellow{
+    color: rgb(221, 224, 42);
+}
+
+.transparent{
+    background-color: transparent;
+    width: 50%;
+    color: white;
+}
+
+.blue{
+    color: blue;
+}
+.red{
+    color: red;
+}
+.white{
+    color: white;
+}
+.submit-section input{
+    margin-right: 70px;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    padding: 10px 43px;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all 0.5s ease;
+    font-size: 15px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
+}

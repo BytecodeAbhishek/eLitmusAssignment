@@ -1,0 +1,57 @@
+body {
+    background: rgb(42, 47, 79);
+}
+
+#nav{
+    color: black;
+}
+.container {
+    margin: 60px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box hr{
+    height: 4px;
+    background-color: black;
+}
+
+
+p {
+    font-size: 2rem;
+}
+
+ul {
+    margin-left: 100px;
+}
+
+ul li a {
+    font-size: 1.3rem;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid antiquewhite;
+}
+
+.wrapper{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.285);
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.wrapper:hover{
+    background-color: rgba(0, 0, 0, 0.812);
+}

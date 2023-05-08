@@ -1,0 +1,22 @@
+body{
+    background: rgb(42, 47, 79);
+}
+.container{
+    margin: 60px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+p{
+    font-size: 2rem;
+}
+
+ul{
+    margin-left: 100px;
+}
+ul li a{
+    font-size: 1.3rem;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/global.css">
+
+    <style>
+        .container {
+            display: flex;
+            background-color: rgb(160, 158, 156);
+            flex-direction: column;
+        }
+
+        td {
+            padding: 10px 20px;
+            background-color: rgb(69, 181, 241);
+            border:2px solid black;
+        }
+
+        th {
+            background-color: #000000;
+            padding: 10px 20px;
+            color: white;
+            border:2px solid transparent;
+        }
+        
+        .thh{
+            border-bottom: 1px solid white;
+        }
+        .navbar {
+            font-size: 25px;
+            height: 10vh;
+            align-items: center;
+            background-color: aqua;
+            color: rgb(245, 51, 51);
+        }
+
+        .table-section {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            padding: 30px;
+            height: 80vh;
+        }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar  ">
+        ADMIN <span>PAGE</span>
+    </nav>
+
+    <div class="container">
+
+        <div class="table-section">
+            <table id="table">
+
+                <tr>
+                    <th colspan="3"  class="thh" style="border-right: 1px solid white;">User Details</th>
+                    <th colspan="6"  class="thh">Accuracy</th>
+                </tr>
+                <tr>
+                    <th>USER ID</th>
+                    <th>NAME</th>
+                    <th>EMAIL</th>
+                    <th>CLUE-1</th>
+                    <th>CLUE-2</th>
+                    <th>CLUE-3</th>
+                    <th>CLUE-4</th>
+                    <th>CLUE-5</th>
+                    <th>CLUE-6</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+    <script src="/js/config.js"></script>
+    <script src="/js/admin.js"></script>
+</body>
+
+</html>
