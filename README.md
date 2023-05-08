@@ -41,3 +41,15 @@ User Leaderboard
 ![image](https://user-images.githubusercontent.com/123349245/236934868-2d1acd79-cb9a-4e78-aca1-8b6fb3f02dd8.png)
 #
 I Tried to fullfill mos of the requirments and codes are given.
+#
+answer to 1st question : albert einstein
+#
+answer to 2nd question : 10
+#
+answer to 3rd question : 18
+#
+answer to 4th question : mountains
+#
+answer to 5th question : true
+#
+answer to 6th question : flufy , 7
