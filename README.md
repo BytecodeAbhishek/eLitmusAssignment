@@ -43,7 +43,7 @@ User Leaderboard
 #
 I Tried to fullfill mos of the requirments and codes are given.
 #
-answer to 1st question : albert einstein
+answer to 1st question : issac newton
 #
 answer to 2nd question : 10
 #
