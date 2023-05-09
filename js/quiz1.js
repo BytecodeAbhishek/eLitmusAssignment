@@ -13,7 +13,7 @@ btn.onclick = function () {
     if (answerString.length == 0) {
         alert('Invalid input');
     }
-    else if (answerString == "albert einstein".toLowerCase().trim()) {
+    else if (answerString == "issac newton".toLowerCase().trim()) {
         ok=true;
         correct++;
     } else {
